@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const readline = require("readline");
 //let arr = [1, 2, 3, 2, 4, 5, 3];
 let seen = new Set();
@@ -20,3 +21,13 @@ for (let i = 0; i < arr.length; i++) {
 console.log([...duplicates]);
 rl.close();
 });
+=======
+let arr = [1, 2, 2, 3, 4, 4, 5];
+let unique = [];
+for (let i = 0; i < arr.length; i++) {
+    if (!unique.includes(arr[i])) {
+        unique.push(arr[i]);
+    }
+}
+console.log(unique);
+>>>>>>> 02cb680ef6fdfa8182c61d1b860faded38d8b48f
